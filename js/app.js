@@ -92,6 +92,9 @@ let Tokyo = new City('Tokyo', 24, 3, 1.2);
 let Dubai = new City('Dubai', 38, 11, 3.7);
 let Paris = new City('Paris', 38, 20, 2.3);
 let Lima = new City('Lima', 16, 2, 4.6);
+
+
+
 Seattle.rendertableElHeader();
 Seattle.randomCustPhr();
 Seattle.salesCookies();
