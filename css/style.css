@@ -1,5 +1,6 @@
 
 
+
   @import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
@@ -88,3 +89,19 @@ table tr:hover {
   background-color: #616161;
   color: white;
 }
+
+h1{
+    font-family: 'Syne Mono', monospace;
+}
+a{
+    font-family: 'Syne Mono', monospace;
+}
+table, td, th {
+    border: 1px solid black;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  body{
+      background-image:url(https://i.pinimg.com/originals/22/55/0d/22550d50bc930e6802d8b65313b49c87.jpg);
+  }
