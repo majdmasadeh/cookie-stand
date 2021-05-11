@@ -1,3 +1,95 @@
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+
+
+
+* {
+    text-align: center;
+    margin: 0 auto;
+  
+  }
+
+body {
+    font-size: 2rem;
+    font-family: 'Pangolin', cursive;
+}
+
+
+
+
+nav {
+    
+    height: 45px;
+    display: block;
+  }
+  
+  nav>ul {
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav>ul>li {
+    display: inline;
+    margin: 20px;
+  }
+  
+  nav>ul>li>a {
+    color: rgba(231, 111, 81, 1);
+    font-size: 1.8rem;
+    text-decoration: none;
+  }
+
+  nav>ul>li>a:hover {
+    color: rgba(231, 111, 81, 0.7);
+  }
+  
+main {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    overflow-y: auto;
+  }
+  
+  main h2 {
+    font-size: 2rem;
+  }
+
+table,
+td,
+th {
+  border: 1px solid black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 130px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #3F51B5;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #BDBDBD;
+}
+
+table tr:hover {
+  background-color: #616161;
+  color: white;
+}
+
 h1{
     font-family: 'Syne Mono', monospace;
 }
