@@ -1,6 +1,6 @@
 'use strict';
 let total = 0;
-let mainContaier = [];
+let locations = [];
 let Sales = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 let Sum = 0;
 function City(name, maxCustomer, miniCustomer, avgCustomer) {
@@ -13,7 +13,7 @@ function City(name, maxCustomer, miniCustomer, avgCustomer) {
     this.randomCustomerPHR = [];
     this.salesPH = [];
     this.totalCookiePerDay = 0;
-    mainContaier.push(this);
+    locations.push(this);
 }
 // ........................................................Random Customer per hour
 City.prototype.randomCustPhr = function () {
@@ -111,4 +111,3 @@ Paris.render();
 Lima.randomCustPhr();
 Lima.salesCookies();
 Lima.render();
-rendertableElTotal();
