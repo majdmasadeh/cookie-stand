@@ -101,3 +101,10 @@ table, td, th {
   }
   
   
+  footer
+  {
+      clear: both;
+      background-color: rgb(85, 85, 85);
+      margin: 1px;
+      padding: 1px;
+  }
