@@ -43,11 +43,13 @@ City.prototype.rendertableElHeader = function () {
     let th1 = document.createElement('th');
     tr1.appendChild(th1);
     th1.textContent = 'Working Hours';
+
     for (let i = 0; i < this.workHours.length; i++) {
         let th1 = document.createElement('th');
         tr1.appendChild(th1);
         th1.textContent = this.workHours[i];
     }
+
     let thTotal = document.createElement('th');
     tr1.appendChild(thTotal);
     thTotal.textContent = 'Total';
@@ -76,6 +78,10 @@ function rendertableElTotal() {
     let th1 = document.createElement('th');
     tr1.appendChild(th1);
     th1.textContent = ' Total  ';
+    
+
+
+
     for (let i = 0; i < Sales.length; i++) {
         let tdTotalPh = document.createElement('th');
         tr1.appendChild(tdTotalPh);
@@ -86,13 +92,40 @@ function rendertableElTotal() {
         Sum += Sales[c];
     }
     tr1.appendChild(SumofTotal);
-    SumofTotal.textContent = total;
+    SumofTotal.textContent = Sum;
 }
+
+
+/*
+function rendertableE2Total() {
+  let tr2 = document.createElement('tr');
+  tableEl.appendChild(tr2);
+  let th2 = document.createElement('th');
+  tr2.appendChild(th2);
+  th2.textContent = ' Total  ';
+  
+  for (let i = 0; i < Sales.length; i++) {
+      let tdTotalPh = document.createElement('th');
+      tr1.appendChild(tdTotalPh);
+      tdTotalPh.textContent = workHours[i];
+  }
+  let SumofTotal2 = document.createElement('th');
+  for (let c = 0; c < workHours.length; c++) {
+      Sum += Sales[c];
+  }
+  tr2.appendChild(SumofTotal2);
+  SumofTotal2.textContent = total;
+}
+*/
+
+
+
 let Seattle = new City('Seattle', 65, 23, 6.3);
 let Tokyo = new City('Tokyo', 24, 3, 1.2);
 let Dubai = new City('Dubai', 38, 11, 3.7);
 let Paris = new City('Paris', 38, 20, 2.3);
 let Lima = new City('Lima', 16, 2, 4.6);
+
 Seattle.rendertableElHeader();
 Seattle.randomCustPhr();
 Seattle.salesCookies();
@@ -110,8 +143,8 @@ Lima.randomCustPhr();
 Lima.salesCookies();
 Lima.render();
 
-
-
+rendertableElTotal();
+/*
 
 
 let seattle ={
@@ -404,4 +437,4 @@ lima.randomCustPhr();
 lima.salesCookies();
 lima.render ();
 
-
+*/
