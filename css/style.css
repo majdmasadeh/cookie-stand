@@ -95,10 +95,7 @@ footer{
   margin-top: 20px;
   }
   
-/*main h2 {
-    font-size: 2rem;
-  }
-*/
+
 table {
   width: 50%;
   margin-left: 180px;
@@ -107,7 +104,7 @@ table {
 th {
   background-color: #f71616;
   color: rgb(216, 213, 213);
-  /* padding: 10px; */
+  
 }
 td , tr{
   text-align: center;
@@ -129,5 +126,14 @@ table, td, th {
     border: 1px solid black;
   }
   
-  
+  form
+  {width: 500px;
+    margin-left: 400px;
+    
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+legend{color: forestgreen;}
+input{background-color: brown;}
   
