@@ -117,7 +117,7 @@ td , tr{
 
 table tr:hover {
   background-color: #616161;
-  color: white;
+  color: rgb(184, 139, 139);
 }
 
 h1{
@@ -143,3 +143,18 @@ table, td, th {
      margin-top: 50px;
      font-family: Georgia, Times, 'Times New Roman', serif;
    }
+
+   Form 
+  {width: 500px;
+    margin-left: 400px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+   
+    
+}
+
+legend{color: forestgreen;
+  background-color: honeydew;}
+input{background-color: brown; bac}
+  
